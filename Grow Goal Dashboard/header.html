@@ -1,0 +1,249 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<!-- Google Font Link -->
+     <script src='https://kit.fontawesome.com/46882cce5e.js' crossorigin='anonymous'></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Podkova:wght@400..800&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+<style>
+    * {
+    padding: 0px;
+    margin: 0px;
+}
+/* Same Class */
+.custom-background {
+    background-position: center;
+    background-size: cover;
+}
+
+.main-custom-page {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://growgoal.online/wp-content/uploads/2024/09/image.png);
+    background-position: center;
+    background-size: cover;
+    padding: 25px;
+}
+.custom-nav-bar {
+    /* background-color: #26265b; Dark background */
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 20px;
+    border-radius: 15px;
+    background-image: url(https://growgoal.online/wp-content/uploads/2024/09/Rectangle-29.png);
+}
+
+.custom-nav-child-img {
+    height: 100px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-column-gap: 20px;
+}
+.custom-nav-child-profile {
+    height: 100px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.custom-profile-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.custom-profile-one i{
+    color: #fff;
+    font-size: 38px;
+}
+.custom-bell {
+    width: 26px;
+    height: 30px;
+}
+.custom-porfile {
+    height: 82px;
+    width: 82px;
+    border: 2px solid #fff;
+    border-radius: 100px;
+    padding: 2px;
+    
+}
+.custom-profile-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.custom-student-name {
+    font-weight: 600;
+    font-size: 24px;
+    font-family: "Jost", sans-serif;
+    color: #fff;
+}
+.custom-student {
+    font-weight: 500;
+    font-size: 17px;
+    font-family: "Jost", sans-serif;
+    color: #fff;
+}
+.custom-nav-child-logout {
+    height: 100px;
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+.custom-child-images {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.active.custom-child-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%; 
+}
+.active.custom-child-images::after {
+    content: '';
+    height: 25px;
+    width: 100%;
+    background-color: #80F7FF;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    border-radius: 13px;
+
+}
+.custom-child-images img {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 13px;
+    background-color: #FFFFFF;
+}
+.active.custom-child-images img {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 13px;
+    background-color: #87F1FF;
+}
+.active .custom-lesson-name {
+    font-family: "Podkova", serif;
+    font-size: 20px;
+    line-height: 35.3px;
+    color:#87F1FF;
+    ;
+}
+.custom-lesson-name {
+    font-family: "Podkova", serif;
+    font-size: 20px;
+    line-height: 35.3px;
+    color: #ffffff;
+}
+.custom-logout-button-container {
+    display: inline-block;
+}
+
+.custom-logout-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #2a75d9, #d93c8f);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    transition: background 0.3s ease;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    gap: 10px;
+}
+.custom-logout-button i{
+   font-size: 24px;
+}
+
+.custom-logout-button:hover {
+    background: linear-gradient(45deg, #1a55c5, #c1347e);
+}
+
+.custom-logout-icon {
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+}
+
+</style>
+</head>
+<body>
+	<div class="main-custom-page">
+        <div class="custom-nav-bar custom-background">
+			<div class="custom-nav-child-img">
+				<div class="custom-child-images active">
+					<img src="https://growgoal.online/wp-content/uploads/2024/09/book.png" alt="">
+					<h3 class="custom-lesson-name">Book A Lesson</h3>
+				</div>
+				<div class="custom-child-images">
+					<img src="https://growgoal.online/wp-content/uploads/2024/09/book.png" alt="">
+					<h3 class="custom-lesson-name">Enter The Lesson</h3>
+				</div>
+				<div class="custom-child-images">
+					<img src="https://growgoal.online/wp-content/uploads/2024/09/book.png" alt="">
+					<h3 class="custom-lesson-name">Practice</h3>
+				</div>
+				<div class="custom-child-images">
+					<img src="https://growgoal.online/wp-content/uploads/2024/09/book.png" alt="">
+					<h3 class="custom-lesson-name">Messages</h3>
+				</div>
+				<div class="custom-child-images">
+					<img src="https://growgoal.online/wp-content/uploads/2024/09/book.png" alt="">
+					<h3 class="custom-lesson-name">Money Tools</h3>
+				</div>
+			</div>
+			
+			
+			<div class="custom-nav-child-profile">
+				<div class="custom-profile-one">
+                    <i class="fas fa-bell custom-bell" ></i>
+					 <img src="https://growgoal.online/wp-content/uploads/2024/09/image-1.png" class="custom-porfile" alt="">
+				</div>
+				<div class="custom-profile-two">
+					<h2 class="custom-student-name">Tynisha Obey</h2>
+					<h4 class="custom-student">Student</h4>
+				</div>
+
+			</div>
+			<div class="custom-nav-child-logout">
+				<div class="custom-logout-button-container">
+					<button class="custom-logout-button">
+						Logout
+						<i class="fas fa-right-long"></i>
+					</button>
+				</div>
+				
+			</div>
+		</div>
+		
+		
+	</div>
+</body>
+</html>
