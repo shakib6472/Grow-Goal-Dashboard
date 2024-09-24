@@ -699,3 +699,129 @@
     padding: 20px;
     border-radius: 12px;
 }
+
+/* ------------Page 3 Stare Here---------- */
+.custom-three-main-container{
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
+.cutom-three-main-left {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.custom-three-left-top-container {
+    width: 466.41px;
+    height: 219.59px;
+    border-radius: 38px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    background-image: url(https://growgoal.online/wp-content/uploads/2024/09/main-custom-page-two-6.png);
+    background-size: cover;
+    background-position: center;
+    gap: 20px;
+
+}
+.custom-three-left-end-container {
+    width: 466.41px;
+    height: 219.59px;
+    border-radius: 38px;
+    background-image: url(https://growgoal.online/wp-content/uploads/2024/09/main-custom-page-two-6.png);
+    background-size: cover;
+    background-position: center;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.custom-three-time-date-sec-min {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.custom-three-time-date-sec-min h6,span {
+    color: #fff;
+}
+.custom-three-time-date-sec-min span {
+    font-size: 38px;
+    font-weight: 900;
+    font-family: var(--font-family);
+    width: 29px!important;
+    height: 47px;
+    background-image: linear-gradient(#044BAF4D,#C26AE34D);
+    border: 1px solid #87F1FF;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+.custom-three-time-date-sec-min .day-time-sec-min {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.day-time-sec-min {
+    display:flex;
+    gap: 10px;
+}
+.custom-three-headin-icon h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #fff;
+    font-family: "Podkova", serif; 
+}
+.custom-three-time-date-sec-min h6 {
+    font-size: 19px;
+    width: 700;
+    font-family: "Podkova", serif; 
+    text-align: center;
+}
+.custom-three-headin-icon {
+    display: flex;
+
+}
+.custom-three-star-heading {
+    display: flex;
+    gap: 20px;
+}
+.custom-three-star-heading h2 {
+    font-size: 32px;
+    line-height: 38px;
+    color: #fff;
+    width: 700;
+    font-family: "Podkova", serif; 
+    text-align: center;
+    text-align: left;
+}
+.custom-three-star-heading img {
+    height: 40px;
+    width: 40px;
+}
+.custom-three-star {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.custom-three-star img {
+font-size: 20px;
+padding: 8px;
+background-color: #2a75d9;
+border-radius: 6px;
+border: 1px solid #80F7FF;
+}
+/* Page 3 Right Container */
+.cutom-three-main-right {
+    width: 1110px;
+    height: 650px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://growgoal.online/wp-content/uploads/2024/09/image-5.png);
+    background-size: cover;
+    background-position: center;
+}
